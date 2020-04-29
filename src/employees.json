@@ -2,16 +2,81 @@
     {
       "id": 1,
       "name": "Cristiano Ronaldo",
-      "image": "#",
+      "image": "https://www.gettyimages.com/detail/news-photo/cristiano-ronaldo-of-portugal-poses-during-the-official-news-photo/971122156",
       "position": "Forward",
-      "birth": "February 5, 1985"
+      "birth": "February 5, 1985",
+      "country": "Portugal"
     },
     {
         "id": 2,
         "name": "Romelu Lukaku",
-        "image": "#",
+        "image": "https://www.gettyimages.com/detail/news-photo/romelu-lukaku-of-belgium-poses-for-a-portrait-during-the-news-photo/974275080",
         "position": "Forward",
-        "birth": "May 13, 1993"
-      }
+        "birth": "May 13, 1993",
+        "country": "Belgium"
+    },
+    {
+        "id": 3,
+        "name": "Lionel Messi",
+        "image": "https://www.gettyimages.com/detail/news-photo/lionel-messi-of-argentina-poses-for-a-portrait-during-the-news-photo/972635152",
+        "position": "Forward",
+        "birth": "June 24, 1987",
+        "country": "Argentina"
+    },
+    {
+        "id": 4,
+        "name": "James Rodrigues",
+        "image": "  https://www.gettyimages.com/detail/news-photo/james-rodriguez-of-colombia-poses-for-a-portrait-during-the-news-photo/973384558",
+        "position": "Midfielder",
+        "birth": "July 12, 1991",
+        "country": "Colombia"
+    },
+    {
+        "id": 5,
+        "name": "Luka Modric",
+        "image": "https://www.gettyimages.com/detail/news-photo/luka-modric-of-croatia-poses-for-a-portrait-during-the-news-photo/998572466",
+        "position": "Midfielder",
+        "birth": "September 9, 1985",
+        "country": "Croatia"
+    },
+    {
+        "id": 6,
+        "name": "Mesut Ozil",
+        "image": "https://www.gettyimages.com/detail/news-photo/mesut-oezil-of-germany-poses-for-a-portrait-during-the-news-photo/974044880",
+        "position": "Midfielder",
+        "birth": "October 15, 1988",
+        "country": "Germany"
+    },
+    {
+        "id": 7,
+        "name": "Jérôme Boateng",
+        "image": "https://www.gettyimages.com/detail/news-photo/jerome-boateng-of-germany-poses-for-a-portrait-during-the-news-photo/974044404",
+        "position": "Defender",
+        "birth": "September 3, 1988",
+        "country": "Germany"
+    },
+    {
+        "id": 8,
+        "name": "Gerard Pique",
+        "image": "https://www.gettyimages.com/detail/news-photo/gerard-pique-of-spain-poses-for-a-portrait-during-the-news-photo/969849960",
+        "position": "Defender",
+        "birth": "February 2, 1987",
+        "country": "Spain"
+    },
+    {
+        "id": 9,
+        "name": "Benjamin Pavard",
+        "image": "https://www.gettyimages.com/detail/news-photo/benjamin-pavard-of-france-poses-for-a-portrait-during-the-news-photo/971538938",
+        "position": "Defender",
+        "birth": "March 28, 1996",
+        "country": "France"
+    },
+    {
+        "id": 10,
+        "name": "Manuel Neuer",
+        "image": "https://www.gettyimages.com/detail/news-photo/goalkeeper-manuel-neuer-of-germany-poses-for-a-portrait-news-photo/974044252",
+        "position": "Goalkeeper",
+        "birth": "March 27, 1986",
+        "country": "Germany"
+    }
   ]
-  
