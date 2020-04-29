@@ -1,5 +1,6 @@
 import React from 'react';
 //import Wrapper from "./components/Wrapper";
+// import Title from "./components/Title";
 import logo from './logo.svg';
 import './App.css';
 
