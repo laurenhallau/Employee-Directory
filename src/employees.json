@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Cristiano Ronaldo",
+      "image": "#",
+      "position": "Forward",
+      "birth": "February 5, 1985"
+    },
+    {
+        "id": 2,
+        "name": "Romelu Lukaku",
+        "image": "#",
+        "position": "Forward",
+        "birth": "May 13, 1993"
+      }
+  ]
+  
