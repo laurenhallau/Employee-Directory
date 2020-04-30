@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import EmployeeCard from "./components/Employee Card";
+import EmployeeCard from "./components/EmployeeCard";
 // import logo from './logo.svg';
 import './App.css';
 import employees from "./employees.json";
