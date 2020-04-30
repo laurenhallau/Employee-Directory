@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
+import Jumbotron from "./components/Title";
 import EmployeeCard from "./components/EmployeeCard";
 // import logo from './logo.svg';
 import './App.css';
@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Employee Directory</Title>
+        <Jumbotron></Jumbotron>
         {this.state.employees.map(employee => (
           <EmployeeCard
           id={employee.id}
