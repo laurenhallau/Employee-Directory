@@ -1,7 +1,6 @@
 import React from "react";
+import "./style.css";
 // import { Card, CardImg, CardTitle, Row, Col, CardText } from "reactstrap";
-//import "./style.css";
-
 
 function EmployeeCard(props) {
     console.log("employeecard", props);
@@ -12,10 +11,14 @@ function EmployeeCard(props) {
             </div>
             <div className="content">
                 <ul>
-                <li>Name: {props.name} </li> 
-                <li>Position: {props.position} </li>
-                <li>Date of Birth: {props.birth} </li>
-                <li>Country: {props.country}</li>
+                <li>
+                  <strong>Name:</strong> {props.name} </li> 
+                <li>
+                  <strong>Position:</strong> {props.position} </li>
+                <li>
+                  <strong>Date of Birth:</strong> {props.birth} </li>
+                <li>
+                  <strong>Country:</strong> {props.country}</li>
                 </ul>
             </div>
         </div>
