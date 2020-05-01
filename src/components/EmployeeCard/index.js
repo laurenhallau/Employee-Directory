@@ -12,13 +12,17 @@ function EmployeeCard(props) {
             <div className="content">
                 <ul>
                 <li>
-                  <strong>Name:</strong> {props.name} </li> 
+                  <strong>Name:</strong> {props.name} 
+                </li> 
                 <li>
-                  <strong>Position:</strong> {props.position} </li>
+                  <strong>Position:</strong> {props.position}
+                </li>
                 <li>
-                  <strong>Date of Birth:</strong> {props.birth} </li>
+                  <strong>Date of Birth:</strong> {props.birth}
+                </li>
                 <li>
-                  <strong>Country:</strong> {props.country}</li>
+                  <strong>Country:</strong> {props.country}
+                </li>
                 </ul>
             </div>
         </div>
