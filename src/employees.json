@@ -78,5 +78,21 @@
         "position": "Goalkeeper",
         "birth": "March 27, 1986",
         "country": "Germany"
+    },
+    {
+        "id": 11,
+        "name": "Thibaut Courtois",
+        "image": "https://bit.ly/3b1qx8C",
+        "position": "Goalkeeper",
+        "birth": "May 11, 1992",
+        "country": "Belgium"
+    },
+    {
+        "id": 12,
+        "name": "Gianluigi Buffon",
+        "image": "https://bit.ly/3fdCQC9",
+        "position": "Goalkeeper",
+        "birth": "January 28, 1978",
+        "country": "Italy"
     }
   ]
