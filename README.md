@@ -5,6 +5,7 @@ Unit 19 React Homework: Employee Directory
 Created an employee directory with React; Breaking up the application's UI into components, managing component state, and responding to user events.
 
 ## Deployed Application
+https://employee-directory-lwh.herokuapp.com/
 
 ## In Action
 ![](https://media.giphy.com/media/hsDSEPTYs6Ggy4vmZj/giphy.gif)
