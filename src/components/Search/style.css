@@ -1,4 +1,4 @@
   .filter-list {
-      width: 100%;
-      align-items: center;
+      display: inline-flex;
+      flex-wrap: wrap;
       }
