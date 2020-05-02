@@ -29,7 +29,7 @@ class Search extends Component{
   render(){
     return(
       <div className="filter-list">
-        <input type="text" placeholder="Search" onChange={this.filterList}/>
+        <input className="search" type="text" placeholder="Search" onChange={this.filterList}/>
         
         {
           this.state.filteredEmployees[0]?
@@ -66,18 +66,5 @@ class Search extends Component{
     )
   }
 }
-
-// class List extends React.Component{
-//   render(){
-//     const allEmployees = this.props.employees.map((i)=>{
-//       return <li key={i}>{i}</li>
-//     })
-//     return(
-//       <ul>
-//         {allEmployees}
-//       </ul>
-//     )
-//   }
-// }
 
 export default Search;

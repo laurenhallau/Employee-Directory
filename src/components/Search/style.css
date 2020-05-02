@@ -2,3 +2,7 @@
       display: inline-flex;
       flex-wrap: wrap;
       }
+
+  .search {
+    width: -webkit-fill-available;
+  }
