@@ -6,6 +6,7 @@ import Search from "./components/Search";
 // import logo from './logo.svg';
 import './App.css';
 import employees from "./employees.json";
+import Main from "./components/Main";
 // import { findRenderedComponentWithType } from 'react-dom/test-utils';
 
 class App extends Component {
@@ -17,19 +18,10 @@ class App extends Component {
     return (
       <Wrapper>
         <Jumbotron />
-        <Search />
+        <Main />
+        
        
-        {this.state.employees.map(employee => (
-          <EmployeeCard
-          id={employee.id}
-          key={employee.id}
-          name={employee.name}
-          image={employee.image}
-          position={employee.position}
-          birth={employee.birth}
-          country={employee.country}
-          />
-        ))}
+        
       </Wrapper>
     )
   }

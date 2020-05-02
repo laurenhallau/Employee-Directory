@@ -3,7 +3,7 @@ import "./style.css";
 // import { Card, CardImg, CardTitle, Row, Col, CardText } from "reactstrap";
 
 function EmployeeCard(props) {
-    console.log("employeecard", props);
+  
     return (
         <div className="card">
             <div className="img-container">

@@ -1,6 +1,8 @@
-import React from "react";
-import "../../employees.json";
+import React, {Component} from "react";
+import employees from "../../employees.json";
 import "./style.css";
+// import App from "../../App";
+import EmployeeCard from "../EmployeeCard";
 
 // function Search(props) {
 //     return (
@@ -19,28 +21,67 @@ import "./style.css";
 //     );
 // }
 
-class Search extends React.Component{
-  constructor(){
-    super()
+class Search extends Component{
+  constructor(props){
+    super(props)
     this.state = {
-      employees: []
+      employees,
+      filteredEmployees: []
     }
   }
-  filterList(e){
+  filterList = e => {
+    console.log("working");
+    const filterTarget = e.target.value;
     let employeeList = this.state.employees;
-    employeeList = employeeList.filter((i)=>{
-      return i.toLowerCase().search(e.target.value.toLowerCase()) !== -1;
+    // console.log(employeeList);
+    employeeList = employeeList.filter(i =>{
+      let values = Object.values(i)
+        .join("")
+        .toLocaleLowerCase();
+        return values.indexOf(filterTarget.toLowerCase()) !== -1;
+      // console.log(values);
+      // return i.toLowerCase().search(e.target.value.toLowerCase()) !== -1;
     })
-    this.setState({employees: employeeList});
+    this.setState({filteredEmployees: employeeList});
   }
-  componentDidMount(){
-    this.setState({employees: this.state.employees})
-  }
+  
   render(){
+    console.log('fil', this.state.filteredEmployees)
     return(
       <div className="filter-list">
-        <input type="text" placeholder="Search" onChange={this.filterList.bind(this)}/>
-      <List employees={this.state.employees}/>
+        <input type="text" placeholder="Search" onChange={this.filterList}/>
+        
+        {
+          this.state.filteredEmployees[0]?
+          
+          this.state.filteredEmployees.map(employee => (
+            <EmployeeCard
+            id={employee.id}
+            key={employee.id}
+            name={employee.name}
+            image={employee.image}
+            position={employee.position}
+            birth={employee.birth}
+            country={employee.country}
+            />
+          )) 
+          :
+          this.state.employees.map(employee => (
+            <EmployeeCard
+            id={employee.id}
+            key={employee.id}
+            name={employee.name}
+            image={employee.image}
+            position={employee.position}
+            birth={employee.birth}
+            country={employee.country}
+            />
+          ))
+
+        
+        }
+        
+  
       </div>
     )
   }
