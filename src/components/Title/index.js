@@ -7,7 +7,7 @@ function Title() {
         <div>
           <Jumbotron className="jumbotron">
               <h1 className="title">Employee Directory</h1>
-              <p className="lead">Search for an employee by name</p>
+              <p className="lead">Search for an employee by name, position, or country!</p>
           </Jumbotron>
         </div>
     );   
