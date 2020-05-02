@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-// import { Card, CardImg, CardTitle, Row, Col, CardText } from "reactstrap";
 
 function EmployeeCard(props) {
   
