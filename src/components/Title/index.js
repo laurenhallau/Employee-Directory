@@ -5,9 +5,9 @@ import "./style.css";
 function Title() {
     return (
         <div>
-          <Jumbotron classname="jumbotron">
-              <h1 classname="title">Employee Directory</h1>
-              <p classname="lead">Search for an employee</p>
+          <Jumbotron className="jumbotron">
+              <h1 className="title">Employee Directory</h1>
+              <p className="lead">Search for an employee</p>
           </Jumbotron>
         </div>
     );   
