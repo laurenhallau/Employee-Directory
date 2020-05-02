@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import employees from "../../employees.json";
-import "./style.css";
+// import "./style.css";
 // import App from "../../App";
 import EmployeeCard from "../EmployeeCard";
 
@@ -87,17 +87,17 @@ class Search extends Component{
   }
 }
 
-class List extends React.Component{
-  render(){
-    const allEmployees = this.props.employees.map((i)=>{
-      return <li key={i}>{i}</li>
-    })
-    return(
-      <ul>
-        {allEmployees}
-      </ul>
-    )
-  }
-}
+// class List extends React.Component{
+//   render(){
+//     const allEmployees = this.props.employees.map((i)=>{
+//       return <li key={i}>{i}</li>
+//     })
+//     return(
+//       <ul>
+//         {allEmployees}
+//       </ul>
+//     )
+//   }
+// }
 
 export default Search;

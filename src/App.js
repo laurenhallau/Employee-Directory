@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Wrapper from "./components/Wrapper";
 import Jumbotron from "./components/Title";
-import EmployeeCard from "./components/EmployeeCard";
-import Search from "./components/Search";
+// import EmployeeCard from "./components/EmployeeCard";
+// import Search from "./components/Search";
 // import logo from './logo.svg';
 import './App.css';
 import employees from "./employees.json";
@@ -19,8 +19,7 @@ class App extends Component {
       <Wrapper>
         <Jumbotron />
         <Main />
-        
-       
+      
         
       </Wrapper>
     )
