@@ -6,8 +6,8 @@ Created an employee directory with React; Breaking up the application's UI into 
 
 ## Deployed Application
 
-## Screen Shot
-![]()
+## In Action
+![](https://media.giphy.com/media/hsDSEPTYs6Ggy4vmZj/giphy.gif)
 
 ## User Story
 
